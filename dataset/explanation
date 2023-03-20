@@ -1,0 +1,19 @@
+In this folder, we have our dataset. 
+
+1)create_train.py
+
+For convenience I have placed create_train.py here. This python script is expected to create our trained.txt and test.txt files.
+
+We will use them when training our model.
+
+Further explanation exists in create_train.py script.
+
+2)data_name.py
+
+With this script, you will be able to create your labeled.data and classes.name files. 
+
+labeled.data: labeled.data file is later carried to darknet/cfg folder to use in training.
+
+classes.names: .name files consist of names of your classes. If further explanation is being needed, check out darknet/data .names files. 
+
+Also, more explanation included in data_name.py script.
